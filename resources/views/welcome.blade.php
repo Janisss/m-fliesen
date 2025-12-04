@@ -162,7 +162,7 @@
             padding: 1rem;
             height: auto;
         }
-        a {
+        a,span {
             color: #fff;
             text-decoration: none;
             font-size: 1.2rem;
@@ -176,11 +176,12 @@
     <div class="container" itemscope itemtype="https://schema.org/LocalBusiness">
         <img src="{{ asset('/images/m-fliesen-logo.svg') }}" alt="M-Fliesen logo" class="logo" itemprop="logo">
         <div style="display: flex; justify-content: space-between; margin-top: 3rem; flex-wrap: wrap; gap: 1rem;">
+            <span>Robert Mati</span>
             <a href="mailto:office@m-fliesen.at" itemprop="email">office@m-fliesen.at</a>
             <a href="tel:+436643678590" itemprop="telephone">+43 664 367 8590</a>
+            </div>
+            <meta itemprop="name" content="M-Fliesen.at">
+            <meta itemprop="description" content="Professionelle Fliesen und Platten in Österreich">
         </div>
-        <meta itemprop="name" content="M-Fliesen.at">
-        <meta itemprop="description" content="Professionelle Fliesen und Platten in Österreich">
-    </div>
-</body>
-</html>
+    </body>
+    </html>
